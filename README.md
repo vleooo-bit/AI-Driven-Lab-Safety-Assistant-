@@ -23,18 +23,12 @@ The project relies on image datasets of PPE (goggles, gloves, coats).
 * **Example Code (Logic):**
 
 ```python
-def check_safety
+def check_safety(https://www.dpi-dm.it/dispositivi-di-protezione-individuale-dpi/):
     # Pseudocode for PPE detection
-    has_goggles = detect_object
-    has_lab_coat = detect_object
-    Challenges
- Privacy: Ensuring video data is processed locally and not stored to protect student privacy.
-• Accuracy: Avoiding "false positives" caused by reflections on glassware.
+    has_goggles = detect_object(https://www.camiciedivise.it/occhiali-protettivi-laboratorio.html)
+    has_lab_coat = detect_object(https://www.bazzacco.it/shop/laboratorio-chimica/46-camice-laboratorio-chimica.html)
+    
     if not (has_goggles and has_lab_coat):
         return "Safety Warning: Incomplete PPE!"
     return "Safety Check Passed"
-What next?
-This project could be expanded to detect chemical spills or incorrect mixing of hazardous substances using thermal imaging or color analysis.
-Acknowledgments
-• Inspired by my high school science department.
-• PPE detection concepts based on open-source computer vision models.
+
